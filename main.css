@@ -10,15 +10,15 @@ body {
 @keyframes vibe {
 	0% {
 		background-color: red;
-		background: no-repeat center center url('http://www.rantplaces.com/wp-content/uploads/2014/10/Sunset-socialphy.com_.jpg'),
-		url('http://www.clipartqueen.com/image-files/cats-head.png.pagespeed.ce.Rj0KGZub_t.png') no-repeat 10% center / 10%;
+		background: no-repeat center center url('/images/sunset.png'),
+		url('/images/cat-head.png') no-repeat 10% center / 10%;
 	}
 	50% {
 		background-color: blue;
 	}
 	100% {
 		background-color: yellow;
-		background: no-repeat center center url('http://www.rantplaces.com/wp-content/uploads/2014/10/Sunset-socialphy.com_.jpg'),
-		url('http://www.clipartqueen.com/image-files/cats-head.png.pagespeed.ce.Rj0KGZub_t.png') no-repeat 10% center / 50%;
+		background: no-repeat center center url('/images/sunset.png'),
+		url('/images/cat-head.png') no-repeat 10% center / 50%;
 	}
 }
