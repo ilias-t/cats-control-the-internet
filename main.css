@@ -1,3 +1,6 @@
+body {
+	margin: 0;
+}
 #scene {
 	height: 100vh;
 	background-blend-mode: difference;
